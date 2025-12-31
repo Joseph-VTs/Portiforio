@@ -95,3 +95,19 @@ header {
         }
     }
 }
+
+/* Button Fixed Watts Canto Inferior Direito da Tela */
+.Watts-Fixed-Button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #25D366;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: transform 0.3s ease;
+}
+
+.Watts-Fixed-Button:hover {
+    transform: scale(1.1);
+}
