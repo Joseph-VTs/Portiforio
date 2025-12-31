@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Opcionais     */
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+:root {
+    /* Inter: excelente para títulos e textos corridos, com ótima legibilidade. */
+    --Font-Primary: 'Inter', sans-serif;
+    /* Roboto Mono: ideal para destacar trechos de código ou nomes de tecnologias. */
+    --Font-Secondary: 'Roboto Mono', monospace;
+
+    --Coral-Av: #EF4D5F;
+    --Title-Gelo: #F8F9Fa;
+    --Txt-Lorem: #A9AFBB;
+
+    /* Dourado */
+    --Color-Dourado: #FEB602;
+    --Color-Verde: #44B678;
+    --Color-Azul: #1F408C;
+    --Color-Grey: #9C9C9C;
+
+    --Bg-Dark: #0b0e14; /* Fundo escuro */
+    --Bg-Light: #1c2230; /* Fundo claro do gradiente */
+    --Text-White: #FFFFFF; /* Títulos */
+    --Text-Gray: #a9afbb; /* Parágrafos e menu */
+}
+
+
+body {
+
+    /* Garante que o corpo tenha no mínimo a altura total da tela */
+    min-height: 100vh;
+
+    /* Aplica o gradiente radial */
+    background: radial-gradient(circle at 75% 30%, #1c2230 0%, #0b0e14 100%);
+
+    /* Opcional: Fixa o fundo para que o ponto de luz não suba ao rolar a página */
+    background-attachment: fixed;
+
+    /* Define a cor padrão do texto para branco, conforme o design */
+    color: var(--Text-White);
+}
