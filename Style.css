@@ -50,3 +50,48 @@ body {
     /* Define a cor padrão do texto para branco, conforme o design */
     color: var(--Text-White);
 }
+
+/* Header / Navbar */
+header {
+    padding: 12px;
+    background-color: rgba(10, 12, 16, 0.95);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+
+    nav {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: center;
+        padding: 8px;
+        overflow: hidden;
+
+        h2 {
+            padding: 6px;
+            color: #FFFFFF;
+            font-size: 1.6rem;
+        }
+
+        ul {
+            display: flex;
+            /* justify-content: space-evenly; */
+            padding: 6px;
+
+            a {
+                color: #D0D4DD;
+                font-family: var(--Font-Secondary);
+                font-size: 0.8rem;
+                margin-right: 2rem;
+                letter-spacing: 2px;
+                text-decoration: underline 1px solid #F5C84C;
+            }
+
+            a:hover {
+                color: #D0D48D;
+            }
+        }
+    }
+}
