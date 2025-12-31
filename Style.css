@@ -111,3 +111,92 @@ header {
 .Watts-Fixed-Button:hover {
     transform: scale(1.1);
 }
+
+/* Página Menu / Container */
+.Container-Main {
+    overflow: hidden;
+    display: grid;
+    gap: 4rem;
+
+    /* Section Home / Página Inicial */
+    .Section-Home {
+        width: 100%;
+        height: 100dvh;
+        padding: 12px;
+
+        display: grid;
+        grid-template-columns: 1.7fr 1fr;
+        flex-direction: row;
+        align-items: center;
+        overflow: hidden;
+
+        /* Teste de Sombra entre Páginas */
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
+        .Div-Welcome {
+            padding: 6px;
+            height: 40dvh;
+            margin-right: 4rem;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h3 {
+                font-size: 1.6rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .Div-Icons-Home-Hello {
+                padding: 8px;
+                width: 45%;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a button {
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 60%;
+                    border: 0.6px solid var(--Coral-Av);
+                    background-color: transparent;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+                    transition: transform 0.5s ease;
+
+                    i {
+                        font-size: 0.8rem;
+                        color: var(--Coral-Av);
+                    }
+                }
+
+                a button:hover {
+                    cursor: pointer;
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .Div-IMG-Home {
+            /* width: 700px; */
+            height: 80dvh;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
