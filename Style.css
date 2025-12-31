@@ -199,4 +199,90 @@ header {
             }
         }
     }
+
+    /* Section Sobre mim / Apresentação inicial */
+    .Section-Sobre {
+        width: 100%;
+        height: 100dvh;
+        padding: 12px;
+        /* background-color: chocolate; */
+
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        overflow: hidden;
+
+        /* Teste de Sombra entre Páginas */
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
+        .Div-IMG-Sobre {
+            max-width: 400px;
+            max-height: 80dvh;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .Div-Sobre-Hello {
+            width: 100%;
+            height: 80vh;
+            /* background-color: #D0D48D; */
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            .Div-LD-Hello {
+                max-width: 100%;
+                max-height: 100%;
+                overflow: hidden;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 16px;
+
+                h2 {
+                    padding: 6px;
+                    font-size: 1.8rem;
+                }
+
+                p {
+                    padding: 6px;
+                    font-size: 1rem;
+                }
+            }
+
+            .Div-LD-Tabela {
+                padding: 8px;
+
+                max-width: 100%;
+                max-height: 100%;
+                overflow: hidden;
+
+                table {
+                    border-collapse: separate;
+                    border-spacing: 10px 5px;
+                    /* Horizontal 10px, Vertical 5px */
+
+                    tbody {
+                        font-size: 0.8rem;
+
+                        tr {
+                            gap: 20px;
+
+                            th,
+                            td {
+                                padding: 8px 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
