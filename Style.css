@@ -405,3 +405,123 @@ header {
         }
     }
 }
+
+
+/* Footer / Roda - Pé -> Contatos + Descrição */
+footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 22px;
+
+    display: grid;
+    grid-template-rows: 60dvh 14dvh 10dvh 8dvh;
+
+    >div:nth-child(1) {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+
+        >div:nth-child(1) {
+            height: 100%;
+            padding: 8px;
+            gap: 22px;
+
+            h3 {
+                height: 15%;
+                font-size: 1.3rem;
+            }
+
+            ul {
+                height: 85%;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+
+                li {
+                    padding: 6px 0 ;
+                    
+                    a {
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        
+        >div:nth-child(2) {
+            height: 100%;
+            padding: 8px;
+
+            h3 {
+                height: 15%;
+                font-size: 1.3rem;
+            }
+        
+            ul {
+                height: 85%;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                
+                li {
+                    padding: 6px 0;
+                    
+                    a {
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    >div:nth-child(2) {
+        padding: 8px;
+
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            li {
+                font-size: 1rem;
+                padding: 8px 22px;
+
+                a{
+                    color: white;
+                    font-weight: bold;
+                    font-size: 1.05rem;
+                }
+            }
+        }
+    }
+
+    >div:nth-child(4) {
+        display: flex;
+        align-items: center;
+    }
+
+    >div:nth-child(5) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-size: 0.8rem;
+            color: rgba(156, 156, 156, 0.5);
+        }
+
+        a {
+            padding: 0 10px;
+            font-weight: bold;
+            font-size: 1rem;
+            color: rgba(156, 156, 156, 0.9);
+        }
+    }
+}
