@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Azul e Menta */
+    --Menta_1: #0ffcbe;
+    --Azul_1: #106ebe;
+
+    /* Cinza-Escuro e Amarelo-Esverdeado */
+    --Cinza-Escuro: #6e6e6e;
+    --Amarelo-Esverdeado: #baff39;
+
+    /* Azul Clássico, Turquesa e Dourado */
+    --Azul-Classico: #0a1828;
+    --Turquesa: #178582;
+    --Dourado_1: #bfa181;
+
+    /* Azul royal escuro e dourado */
+    --Azul-Royal_1: #002349;
+    --Dourado_2: #957c3d;
+
+    /* Tons de azul, branco e vermelho-violeta */
+    --Azul-Claro: #EFFAFD;
+    --Azul-Royal_2: #4A8BDF;
+    --Berinjela: #A0006D;
+
+    --Branco: #ffffff;
+    --Black: #000000;
+    --Cinza: #b7b7b7;
+    --Marron: #34281D;
+
+    /* Teste com Cores */
+    --Color-Prymari_1: #7FA3C0;
+    --Color-Prymari_2: #507B9E;
+    --Color-Prymari_3: #346288;
+    --Color-Prymari_4: #1F4E75;
+    --Color-Prymari_5: #1F4E75;
+
+}
