@@ -241,3 +241,46 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+/* Section Serviços Code */
+.Section-Servicos h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.Servicos-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Servicos-Container .Servicos-Box{
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 6rem 2rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid var(--bg-color);
+    transition: 0.3s ease;
+}
+
+.Servicos-Container .Servicos-Box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.Servicos-Box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.Servicos-Box h3{
+    font-size: 2.6rem;
+}
+
+.Servicos-Box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
