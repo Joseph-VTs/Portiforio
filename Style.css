@@ -442,3 +442,117 @@ span{
     font-size: 16px;
     color: var(--text-color);
 }
+
+/* Design Responsivo */
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px){
+    .Header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3%;
+    }
+
+    .Section-Servicos{
+        padding: 7rem;
+    }
+
+    .Section-Projetos .Envolver{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Section-Contatos form .Input-Box input{
+        width: 100%;
+    }
+
+    .Footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 991px){
+    #Menu-Icon{
+        display: block;
+    }
+
+    .NavBar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--main-color);
+        transition: all 0.5s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .NavBar a{
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+
+    .NavBar .Active{
+        right: 0;
+    }
+
+    .Section-Home{
+        flex-direction: column;
+    }
+
+    .Home-Conteudo h3{
+        font-size: 2.6rem;
+    }
+
+    .Home-Conteudo h1{
+        font-size: 5rem;
+    }
+
+    .Home-Conteudo{
+        order: 2;
+        margin-left: 1rem;
+    }
+
+    .Home-img img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .Section-Sobre{
+        flex-direction: column-reverse;
+    }
+
+    .Section-Sobre img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .Section-Servicos h2{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 617px) {
+    .Home-img img{
+        width: 70vw;
+        margin-top: 8rem;
+    }
+    
+    .Sobre-img img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 617px) {
+    html{
+        font-size: 50%;
+    }
+}
