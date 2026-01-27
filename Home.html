@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,62 +10,213 @@
 
     <!-- Link Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 
     <!-- Estilo da Página -->
     <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#Section-Home">Home</a></li>
-                <li><a href="#Section-Sobre">Sobre</a></li>
-                <li><a href="#Section-Exp">Experiências</a></li>
-                <li><a href="#Section-Projetos">Projetos</a></li>
-                <li><a href="#Section-Contatos">Contatos</a></li>
-            </ul>
+    <header class="Header">
+        <a href="#Home" class="Logo">José Vinícius</a>
+
+        <i class="bx bx-menu" id="Menu-Icon"></i>
+
+        <nav class="NavBar">
+            <a href="#Home">Home</a>
+            <a href="#Sobre">Sobre</a>
+            <a href="#Servicos">Serviços</a>
+            <a href="#Projetos">Projetos</a>
+            <a href="#Contatos">Contatos</a>
         </nav>
     </header>
 
-    <main id="Main-Container">
-        <!-------------------------------------------------
-        ------------------- SECTION-Home ------------------
-        -------------------------------------------------->
-        <section class="Section-Home" id="#Section-Home">Home
+    <!-------------------------------------------------
+    ------------------- SECTION-Home ------------------
+    -------------------------------------------------->
+    <section class="Section-Home" id="Home">
+        <div class="Home-img">
+            <img src="img Projeto/4-img.png" alt="Imagem de Perfil">
+        </div>
 
-        </section>
-        
-        <!--------------------------------------------------
-        ------------------- SECTION-Sobre ------------------
-        --------------------------------------------------->
-        <section class="Section-Sobre" id="#Section-Sobre">Sobre
+        <div class="Home-Conteudo">
+            <h3>Olá, eu sou</h3>
+            <h1>José Vinicius</h1>
+            <h3>Eu sou <span class="Multi-Textos">Desenvolvedor</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque atque culpa aliquam reprehenderit
+                corporis tempora, repellendus iste accusamus sunt ut totam a delectus est cum! Esse aliquam possimus
+                neque dignissimos!</p>
 
-        </section>
+            <div class="Social-Media">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Dowload CV</a>
+        </div>
+    </section>
+
+    <!--------------------------------------------------
+    ------------------- SECTION-Sobre ------------------
+    --------------------------------------------------->
+    <section class="Section-Sobre" id="Sobre">
+        <div class="Sobre-Conteudo">
+            <h2 class="Heading">Sobre <span>Mim</span></h2>
+            <h3>Eu sou <span>Desenvolvedor Front-End</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quae tempora unde, provident illum
+                fuga corporis nihil dolorem explicabo nemo maiores iure aliquam voluptatum libero!</p>
+            <a href="#" class="btn">Ler Mais</a>
+        </div>
+
+        <div class="Sobre-img">
+            <img src="img Projeto/3-img.png" alt="Sobre img">
+        </div>
+    </section>
 
 
-        <!--------------------------------------------------------
-        ------------------- SECTION-Experiências -----------------
-        --------------------------------------------------------->
-        <section class="Section-Exp" id="#Section-Exp">Experiências
+    <!--------------------------------------------------------
+    ------------------- SECTION-Serviços ---------------------
+    --------------------------------------------------------->
+    <section class="Section-Servicos" id="Servicos">
+        <h2 class="Heading">Meus <span>Serviços</span></h2>
 
-        </section>
-        
+        <div class="Servicos-Container">
+            <!-- Serviço 1 -->
+            <div class="Servicos-Box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Desenvolvedor Web</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque sunt in veniam, ut
+                    blanditiis nulla cupiditate at id doloribus praesentium pariatur animi molestias rem facilis
+                    sequi voluptatibus iure incidunt!</p>
+                <a href="#" class="btn">Ler Mais</a>
+            </div>
 
-        <!-----------------------------------------------------
-        ------------------- SECTION-Projetos ------------------
-        ------------------------------------------------------>
-        <section class="Section-Projetos" id="#Section-Projetos">Projetos
-            
-        </section>
+            <!-- Serviço 2 -->
+            <div class="Servicos-Box">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>Desenvolvedor Web</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque sunt in veniam, ut
+                    blanditiis nulla cupiditate at id doloribus praesentium pariatur animi molestias rem facilis
+                    sequi voluptatibus iure incidunt!</p>
+                <a href="#" class="btn">Ler Mais</a>
+            </div>
+
+            <!-- Serviço 3 -->
+            <div class="Servicos-Box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Desenvolvedor Web</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque sunt in veniam, ut
+                    blanditiis nulla cupiditate at id doloribus praesentium pariatur animi molestias rem facilis
+                    sequi voluptatibus iure incidunt!</p>
+                <a href="#" class="btn">Ler Mais</a>
+            </div>
+        </div>
+    </section>
 
 
-        <!-----------------------------------------------------
-        ------------------- SECTION-Contatos ------------------
-        ------------------------------------------------------>
-        <section class="Section-Contatos" id="#Section-Contatos">Contatos
-            
-        </section>
-    </main>
+    <!--------------------------------------------------------
+    ------------------- SECTION-Experiências -----------------
+    --------------------------------------------------------->
+    <!-- <section class="Section-Exp" id="Exp">Experiências</section> -->
+
+
+    <!-----------------------------------------------------
+    ------------------- SECTION-Projetos ------------------
+    ------------------------------------------------------>
+    <section class="Section-Projetos" id="Projetos">
+        <div class="Projetos-Box">
+            <h2 class="Heading">Projetos</h2>
+
+            <div class="Envolver">
+                <!-- Projeto 1 -->
+                <div class="Projetos-Item">
+                    <img src="img Projeto/Projeto_Doce_Sonho.jpg" alt="">
+
+                    <h2>Doce Sonho</h2>
+                    <div class="Avaliacao">
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a suscipit quos voluptatem, rerum aperiam.</p>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="Projetos-Item">
+                    <img src="img Projeto/Projeto_Doce_Sonho.jpg" alt="">
+
+                    <h2>Doce Sonho</h2>
+                    <div class="Avaliacao">
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a suscipit quos voluptatem, rerum aperiam.</p>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="Projetos-Item">
+                    <img src="img Projeto/Projeto_Doce_Sonho.jpg" alt="">
+
+                    <h2>Doce Sonho</h2>
+                    <div class="Avaliacao">
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                        <i class="fa-solid fa-star" id="Estrela"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a suscipit quos voluptatem, rerum aperiam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------------------------------
+    ------------------- SECTION-Contatos ------------------
+    ------------------------------------------------------>
+    <section class="Section-Contatos" id="Contatos">
+        <h2 class="Heading">Contate <span>Me</span></h2>
+
+        <form action="#">
+            <div class="Input-Box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" name="Email" placeholder="Endereço de Email">
+            </div>
+
+            <div class="Input-Box">
+                <input type="number" placeholder="Número de Telefone">
+                <input type="text" placeholder="Assunto do Email">
+            </div>
+
+            <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="Footer">
+        <div class="Social">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <p class="Copyright">
+            &copy; José Vinícius - Todos os Direitos Reservados 2026
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
