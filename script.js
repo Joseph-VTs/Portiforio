@@ -11,10 +11,12 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-const typed = new Typed('.Multi-Textos', {
-    strings: ['Programador', 'Front-End Developer', ' Back-End Developer', 'Analista de Dados'],
-    typeSpeed: 80,
-    backSpeed: 80,
-    bakDelay: 1200,
-    loop: true,
+document.querySelectorAll('.Multi-Textos').forEach(function(elemento) {
+  new Typed(elemento, {
+    strings: ['Programador', 'Front-End Developer', 'Back-End Developer', 'Analista de Dados'],
+    typeSpeed: 60,
+    backSpeed: 40,
+    backDelay: 1000,
+    loop: true
+  });
 });
