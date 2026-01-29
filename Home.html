@@ -43,7 +43,7 @@
         <div class="Home-Conteudo">
             <h3>Olá, eu sou</h3>
             <h1>José Vinicius</h1>
-            <h3>Eu sou <span class="Multi-Textos">Desenvolvedor</span></h3>
+            <h3>Eu sou <span class="Multi-Textos"></span></h3>
             <p>
                 “Sou movido pela vontade de aprender, criar e entregar soluções que realmente ajudam pessoas — com
                 simplicidade, propósito e aquele toque de quem ama o que faz.”
@@ -66,7 +66,7 @@
     <section class="Section-Sobre" id="Sobre">
         <div class="Sobre-Conteudo">
             <h2 class="Heading">Sobre <span>Mim</span></h2>
-            <h3>Eu sou <span class="Multi-Textos">Desenvolvedor</span></h3>
+            <h3>Eu sou <span class="Multi-Textos"></span></h3>
             <p>
                 Apaixonado por transformar ideias em interfaces que funcionam de verdade, comecei codando por
                 curiosidade e hoje não largo mais o VS Code. Cada linha de código que escrevo carrega um pouco da minha
@@ -205,20 +205,23 @@
     <section class="Section-Contatos" id="Contatos">
         <h2 class="Heading">Contate <span>Me</span></h2>
 
-        <form action="https://formspree.io/f/xeekgvby" method="post">
+        <form action="https://formspree.io/f/xeekgvby" method="post" id="Contact-Form">
             <div class="Input-Box">
-                <input type="text" placeholder="Nome Completo" required>
+                <input type="text" name="Nome" placeholder="Nome Completo" required>
                 <input type="email" name="Email" placeholder="Endereço de Email" required>
             </div>
 
             <div class="Input-Box">
-                <input type="number" placeholder="Número de Telefone">
-                <input type="text" placeholder="Assunto do Email">
+                <input type="number" name="Telefone" placeholder="Número de Telefone">
+                <input type="text" name="Assunto" placeholder="Assunto do Email">
             </div>
 
             <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
             <input type="submit" value="Enviar Mensagem" class="btn">
         </form>
+
+        <!-- Mensagem de status -->
+        <div id="Form-Status"></div>
     </section>
 
     <!-- Footer -->
