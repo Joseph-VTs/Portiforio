@@ -3,6 +3,9 @@
 - ### [Font-Awesome Icons](https://fontawesome.com/)
 - ### [Box-Icons Icon Menu](https://v2.boxicons.com/)
 - ### [Efeito de Trocar Texto 😍](https://github.com/mattboldt/typed.js)
+- ### [Envio de Formulários Automático](https://formspree.io/)
+- ### [Icones Para o Github](https://devicon.dev/)
+
 ```
 const typed = new Typed('#element', {
   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
